@@ -12,15 +12,19 @@ git clone https://github.com/JZane21/Proyecto-final-certi-react
 cd plataforma-gestion-notas
 3. Instala las dependencias del frontend:
 cd u-web
+
 npm install
-4. Instala las dependencias del backend:
+
+5. Instala las dependencias del backend:
 cd my-u-web-backend
+
 npm install
-5. Inicia el servidor de desarrollo del frontend:
+
+6. Inicia el servidor de desarrollo del frontend:
 npm run dev
-6. Inicia el servidor de desarrollo del backend:
+7. Inicia el servidor de desarrollo del backend:
 npm run develop
-7. Accede a la aplicación en tu navegador en la siguiente dirección:
+8. Accede a la aplicación en tu navegador en la siguiente dirección:
 http://localhost:5173
 ## Requisitos
 
