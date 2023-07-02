@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "personas",
+  "info": {
+    "singularName": "persona",
+    "pluralName": "personas",
+    "displayName": "persona"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "codigo": {
+      "type": "integer",
+      "required": true,
+      "unique": true
+    },
+    "nombre": {
+      "type": "string",
+      "maxLength": 255,
+      "required": true
+    },
+    "contrasenha": {
+      "type": "string",
+      "maxLength": 255,
+      "required": true
+    },
+    "profesion": {
+      "type": "string",
+      "maxLength": 255,
+      "required": true
+    }
+  }
+}

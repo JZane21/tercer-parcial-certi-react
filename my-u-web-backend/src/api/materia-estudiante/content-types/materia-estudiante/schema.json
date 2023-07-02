@@ -1,0 +1,44 @@
+{
+  "kind": "collectionType",
+  "collectionName": "materia_estudiantes",
+  "info": {
+    "singularName": "materia-estudiante",
+    "pluralName": "materia-estudiantes",
+    "displayName": "materia_estudiante"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "id_materia": {
+      "type": "integer",
+      "required": true
+    },
+    "id_persona": {
+      "type": "integer",
+      "required": true
+    },
+    "primer_parcial": {
+      "type": "integer",
+      "required": true
+    },
+    "segundo_parcial": {
+      "type": "integer",
+      "required": true
+    },
+    "tercer_parcial": {
+      "type": "integer",
+      "required": true
+    },
+    "primer_faltas": {
+      "type": "integer"
+    },
+    "segundo_faltas": {
+      "type": "integer"
+    },
+    "tercer_faltas": {
+      "type": "integer"
+    }
+  }
+}
